@@ -1,0 +1,285 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url("../fonts/Metropolis-Medium.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("../fonts/Metropolis-ExtraLight.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Metropolis";
+}
+
+h1 {
+  font-family: "Metropolis";
+  font-weight: bold;
+}
+
+footer {
+  font-family: "Metropolis";
+}
+
+.nav-block {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #161616;
+  border-top: 1px solid #0d0d0d;
+}
+
+.nav-links {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  float: left;
+  width: 100%;
+  font-size: 10px;
+}
+
+.nav-item {
+  width: 25%;
+  float: left;
+  border-right: 1px solid #0d0d0d;
+  box-sizing: border-box;
+}
+
+.nav-item:last-child {
+  border-right: none;
+}
+
+.nav-link {
+  height: 56px;
+  float: left;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+.title-text {
+  margin: 40px 20px 20px 20px;
+  font-size: 2.25rem;
+  color: #ffffff;
+  line-height: 3rem;
+}
+
+.section-title {
+  font-family: "Metropolis";
+  font-size: 1.75rem;
+  margin: 30px 20px 16px 20px;
+}
+
+.about-me {
+  font-size: 1rem;
+  line-height: 1.75;
+  font-family: "Metropolis";
+  font-weight: normal;
+  letter-spacing: 0.4px;
+  hyphens: auto;
+  display: inline;
+}
+
+.about-me-content {
+  margin: 0px 20px 20px 20px;
+}
+
+.about-me-content:last-child {
+  margin-bottom: 80px;
+}
+
+body {
+  background-color: #161616;
+  color: #d7d7d7;
+}
+
+.resume-details {
+  margin: 0 20px 0 20px;
+  list-style: none;
+  padding: 0;
+  font-family: "Metropolis";
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 0.4px;
+}
+
+.experience-image {
+  margin: 0 0 0 5;
+}
+
+.experience-subdetails {
+  list-style: inside;
+  margin: 0 0 16px 0;
+}
+
+.company {
+  margin: 0 0 10px 20px;
+  font-size: 1.15rem;
+  font-weight: 100;
+}
+
+.employee-title {
+  margin: 0 0 10px 0;
+}
+
+.work-description {
+  hyphens: auto;
+  display: inline;
+}
+
+.project-images {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.work-selection {
+  list-style: none;
+  padding: 0;
+  margin: 0 20px 0 20px;
+  line-height: 1.75;
+  font-size: 1rem;
+  font-family: "Metropolis";
+  font-weight: normal;
+  letter-spacing: 0.4px;
+}
+
+.work-selection:last-child {
+  margin-bottom: 80px;
+}
+
+.avatar-me {
+  margin: 0 0 36px 20px;
+  display: block;
+}
+
+.nav-icons {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.honors-details {
+  margin: 0 0 20px 20px;
+  font-weight: lighter;
+}
+
+.honors {
+  margin: 0 0 6px 0;
+}
+
+.courses,
+.activities {
+  margin: 0 0 6px 0;
+}
+
+.course-location,
+.activities-dates {
+  margin: 0 0 20px 20px;
+  font-weight: lighter;
+}
+
+.skills-list {
+  padding: 0;
+  list-style: inside;
+  margin: 0 0 20px 20px;
+  line-height: 1.5;
+}
+
+#last-activites-date {
+  margin: 0 0 80px 0;
+}
+
+.introduction {
+  margin: 0 20px 0 20px;
+  line-height: 1.75;
+  font-size: 1rem;
+  font-family: "Metropolis";
+  font-weight: normal;
+  letter-spacing: 0.4px;
+}
+
+.desktop-nav {
+  position: relative;
+  margin: 20px auto 40px;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.logo-text {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: "Metropolis";
+  font-weight: bold;
+}
+
+.top-nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.top-nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Metropolis";
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 12px;
+}
+
+.active-link {
+  color: #c0a062;
+  fill: #c0a062;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    display: none;
+  }
+  body {
+    max-width: 50%;
+    margin: 0 auto 0;
+  }
+  main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .project-2 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-nav-block {
+    display: none;
+  }
+  .logo {
+    margin-left: 20px;
+  }
+}
